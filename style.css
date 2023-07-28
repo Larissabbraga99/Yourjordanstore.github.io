@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Krona+One&family=Lilita+One&family=Roboto:ital,wght@1,700&display=swap');
+
+
+.carousel-caption h5{
+    font-family: 'Lilita One', cursive;
+    font-size:55px;
+    font-weight: 700;
+    color:white;
+    text-shadow:4px 4px 4px rgb(5, 17, 24);
+}
+.p,.address,.title{
+    text-align:center;
+    color:white;
+}
+.navbar{
+  background:#93150F;
+  color:white;
+}
+.navbar-logo,img {
+    max-height: 100%;
+    width: auto;
+    vertical-align:end;
+}
+.nosso-time{
+    padding:px;
+    border: 1px solid #000;
+    background: #93150F;
+    box-shadow:  rgba(0, 0, 0, 0.25);
+    display:flex;
+    justify-content: space-around;
+  }
+  
+  .team-member, .p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    font-family:'Lilita One';
+   
+  
+  }
+  .h5,.h2{
+    font-family:'Lilita One',cursive;
+    text-align:center;
+    font-size: small;
+  }
+  .team{
+    padding:6%;
+  }
+  .nosso-time{
+justify-content: flex-start;
+color: aliceblue;
+align-items:center;
+justify-content: space-between;
+
+    }
+
+    .colaboradores-tit {
+        font-family: 'Lilita One', cursive;
+        color:#93150F;
+        background:white;
+        text-align: center;
+       
+      
+    }
+    
+  .team-member img {
+    border-radius: 60%;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Lilita One', cursive;
+    transition: transform 0.3s ease;
+  }
+  .team-member:hover {
+    transform: scale(1.1);
+  }
+  
+  
+  .team, .main-title{   
+    text-align:center;
+    font-family:'Lilita One';
+    background:#D9D9D9;
+
+  }
+  .team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .team-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .quem {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .quem img {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .nos-texto {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+
+  .Cards-produtos{
+    padding:10%;
+    flex-direction: column;
+    text-align:center ;
+    transition: transform 0.3s ease;
+  }
+  
+  .contact{
+    background-color:black;
+    font-family:'Lilita One';
+    color:red;
+    text-align:center;
+    padding:10%;
+    font-size: large;
+  }
+  
+ .team img {
+    align-self: flex-start;
+    margin-right: 20px;
+  }
+  
+  .team p {
+    align-self: flex-end;
+    margin-top: 20px; 
+  }
+  .rodape {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background:rgb(155, 155, 155);
+  
+
+  }
+  
+  footer {
+    flex: 1;
+
+  }
+  
+  .redes-sociais {
+    flex: 1;
+  }
+  
+  .logo {
+    text-align: right;
+  }
+  
